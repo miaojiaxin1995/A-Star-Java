@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b8d21b3-8f21-437f-80e5-96c5e1ab0f82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AStar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +56,25 @@
       <option name="presentableId" value="Default" />
       <updated>1576227328935</updated>
     </task>
+    <task id="LOCAL-00001" summary="update Node.java">
+      <created>1576228115145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576228115145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update Node.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Node.java" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="565" y="106" key="CommitChangelistDialog2" timestamp="1576228082107">
+    <state x="565" y="106" key="CommitChangelistDialog2" timestamp="1576228114169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="565" y="106" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576228082107" />
+    <state x="565" y="106" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576228114169" />
     <state x="680" y="230" key="RollbackChangesDialog" timestamp="1576228052069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
