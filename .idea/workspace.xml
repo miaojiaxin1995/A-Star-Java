@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b8d21b3-8f21-437f-80e5-96c5e1ab0f82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AStar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,18 +62,26 @@
       <option name="project" value="LOCAL" />
       <updated>1576228115145</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update Astar.java">
+      <created>1576228379323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576228379323</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update Node.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Node.java" />
+    <MESSAGE value="update Astar.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Astar.java" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="565" y="106" key="CommitChangelistDialog2" timestamp="1576228114169">
+    <state x="565" y="106" key="CommitChangelistDialog2" timestamp="1576228378322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="565" y="106" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576228114169" />
+    <state x="565" y="106" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576228378322" />
     <state x="680" y="230" key="RollbackChangesDialog" timestamp="1576228052069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
