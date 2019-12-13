@@ -25,8 +25,15 @@ public class Node {
     }
 
     public boolean checkBetterPath(Node currentNode, int cost) {
-        int gCost = currentNode.getG() + cost;
+        /*int gCost = currentNode.getG() + cost;
         if (gCost < getG()) {
+            setNodeData(currentNode, cost);
+            return true;
+        }
+        return false;*/
+        //TODO: compare F instead of G.
+        int fCost = currentNode.getG() + cost + currentNode.getH();
+        if (fCost < getF()) {
             setNodeData(currentNode, cost);
             return true;
         }
