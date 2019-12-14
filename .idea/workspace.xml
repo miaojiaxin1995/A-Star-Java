@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b8d21b3-8f21-437f-80e5-96c5e1ab0f82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AStar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-    </list>
+    <list default="true" id="2b8d21b3-8f21-437f-80e5-96c5e1ab0f82" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576250663812</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update Test.java fix some problem">
+      <created>1576337751370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576337751370</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -140,13 +143,14 @@
     <MESSAGE value="update Astar.java" />
     <MESSAGE value="update Test.java" />
     <MESSAGE value="update Test.java -add search node show" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Test.java -add search node show" />
+    <MESSAGE value="update Test.java fix some problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Test.java fix some problem" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="628" y="174" key="CommitChangelistDialog2" timestamp="1576337711583">
+    <state x="628" y="174" key="CommitChangelistDialog2" timestamp="1576337749880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="628" y="174" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576337711583" />
+    <state x="628" y="174" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576337749880" />
     <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1576337678830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
