@@ -14,7 +14,7 @@ public class Node {
     }
 
     public void calculateHeuristic(Node finalNode) {
-        this.h = Math.abs(finalNode.getRow() - getRow()) + Math.abs(finalNode.getCol() - getCol());
+        this.h = (Math.abs(finalNode.getRow() - getRow()) + Math.abs(finalNode.getCol() - getCol()))*10;
     }
 
     public void setNodeData(Node currentNode, int cost) {
@@ -25,15 +25,8 @@ public class Node {
     }
 
     public boolean checkBetterPath(Node currentNode, int cost) {
-        /*int gCost = currentNode.getG() + cost;
+        int gCost = currentNode.getG() + cost;
         if (gCost < getG()) {
-            setNodeData(currentNode, cost);
-            return true;
-        }
-        return false;*/
-        //TODO: compare F instead of G.
-        int fCost = currentNode.getG() + cost + currentNode.getH();
-        if (fCost < getF()) {
             setNodeData(currentNode, cost);
             return true;
         }
@@ -53,7 +46,7 @@ public class Node {
 
     @Override
     public String toString() {
-        return "Node [row=" + row + ", col=" + col + "]";
+        return "Node [row=" + row + ", col=" + col + ",F=" + f +"]";
     }
 
     public int getH() {

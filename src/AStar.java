@@ -53,7 +53,7 @@ public class AStar {
         openList.add(initialNode);
         while (!isEmpty(openList)) {
             Node currentNode = openList.poll();
-//            System.out.println(currentNode+":"+currentNode.getF());       //don't comment for debug
+//            System.out.println(currentNode);       //don't comment for debug
             closedSet.add(currentNode);
             if (isFinalNode(currentNode)) {
                 return getPath(currentNode);
