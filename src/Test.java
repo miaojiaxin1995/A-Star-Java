@@ -14,6 +14,18 @@ public class Test {
             System.out.println(node);
         }
 
+/*        Node initialNode = new Node(9, 0);
+        Node finalNode = new Node(0, 9);
+        int rows = 10;
+        int cols = 10;
+        AStar aStar = new AStar(rows, cols, initialNode, finalNode);
+        int[][] blocksArray = new int[][]{{1, 2}, {2,7}, {4, 1}, {4, 4}, {6, 8}, {7, 1}, {8, 5}};
+        aStar.setBlocks(blocksArray);
+        List<Node> path = aStar.findPath();
+        for (Node node : path) {
+            System.out.println(node);
+        }*/
+
         //Search Area
         //      0   1   2   3   4   5   6
         // 0    -   -   -   -   -   -   -
