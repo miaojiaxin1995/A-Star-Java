@@ -2,14 +2,22 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        AStar2Test();
+        int[] nums = new int[] {100,200,300,400,500,600,700,800,900};
+        double[] obstacles = new double[] {0.1,0.2,0.3,0.4,0.5};
+
+        for (int i = 0; i < obstacles.length; i++) {
+            for (int j = 0; j < nums.length; j++) {
+                AStar2Test(nums[j],obstacles[i]);
+            }
+        }
+
     }
 
-    public static void AStar2Test() {
+    public static void AStar2Test(int num,double obstacle) {
         long startTime = System.currentTimeMillis();
         Node initialNode = new Node(0, 0);
-        Node finalNode = new Node(1000, 1000);
-        Map mMap = new Map(1000, 1000, 0.3);
+        Node finalNode = new Node(num, num);
+        Map mMap = new Map(num, num, obstacle);
         long endTime = System.currentTimeMillis();
         long start2Time = System.currentTimeMillis();
         AStar2 aStar2 = new AStar2(mMap.getRow(), mMap.getCol(), initialNode, finalNode);
@@ -25,9 +33,8 @@ public class Test {
         long time1 = end1Time - start1Time + endTime - startTime;
         long time2 = end2Time - start2Time + endTime - startTime;
         long generateTime = endTime - startTime;
-        System.out.println("GenerateTime: " + generateTime + "ms.");
-        System.out.println("M1: " + time1 + "ms.");
-        System.out.println("M2: " + time2 + "ms.");
+        System.out.println(num+" "+obstacle+" " + time1 + " "+time2);
+
 
 //        for (Node node : path) {
 //            System.out.println(node);
