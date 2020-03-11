@@ -2,6 +2,25 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
+        A2Test();
+        AStarTest();
+    }
+
+    public static void A2Test(){
+        long startTime = System.currentTimeMillis();
+        Node initialNode = new Node(2, 1);
+        Node finalNode = new Node(2, 5);
+        Map mMap = new Map();
+        AStar2 aStar2 = new AStar2(mMap.getRow(), mMap.getCol(), initialNode, finalNode);
+        aStar2.setBlocks(mMap.getBlocksArray());
+        List<Node> path = aStar2.findPath();
+        for (Node node : path) {
+            System.out.println(node);
+        }
+        System.out.println(System.currentTimeMillis()-startTime+"ms.");
+    }
+    public static void AStarTest() {
+        long startTime = System.currentTimeMillis();
         Node initialNode = new Node(2, 1);
         Node finalNode = new Node(2, 5);
         Map mMap = new Map();
@@ -11,6 +30,7 @@ public class Test {
         for (Node node : path) {
             System.out.println(node);
         }
+        System.out.println(System.currentTimeMillis()-startTime+"ms.");
 
 /*        Node initialNode = new Node(9, 0);
         Node finalNode = new Node(0, 9);

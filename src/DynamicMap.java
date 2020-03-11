@@ -6,5 +6,5 @@
  **/
 
 public class DynamicMap extends Map {
-
+    private int currentTime;
 }
