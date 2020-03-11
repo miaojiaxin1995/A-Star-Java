@@ -26,6 +26,20 @@ public class Map {
         this.blocksArray = blocksArray;
     }
 
+    public Map(int row, int col, double obstacle) {
+        int n = (int) (row * col * obstacle);
+        int[][] blocksArray = new int[n][2];
+        for (int i = 0; i < n; i++) {
+            int r = (int) (row * Math.random());
+            int c = (int) (col * Math.random());
+            blocksArray[i][0] = r;
+            blocksArray[i][1] = c;
+        }
+        this.row = row;
+        this.col = col;
+        this.blocksArray = blocksArray;
+    }
+
     public int getRow() {
         return row;
     }

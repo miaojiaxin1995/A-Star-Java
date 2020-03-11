@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b8d21b3-8f21-437f-80e5-96c5e1ab0f82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AStar2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578883036485</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add a new method without PriorityQueue">
+      <created>1583919867559</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583919867559</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -190,7 +195,8 @@
     <MESSAGE value="add new test" />
     <MESSAGE value="add Map" />
     <MESSAGE value="20200113 log" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200113 log" />
+    <MESSAGE value="add a new method without PriorityQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a new method without PriorityQueue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1583918542286">
@@ -201,30 +207,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="383" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1583916554422" />
-    <state x="628" y="174" key="CommitChangelistDialog2" timestamp="1578883035440">
+    <state x="886" y="157" key="CommitChangelistDialog2" timestamp="1583923090530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="628" y="174" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578883035440" />
+    <state x="886" y="157" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583923090530" />
     <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1583844663021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583844663021" />
-    <state width="1877" height="425" key="GridCell.Tab.0.bottom" timestamp="1583919767021">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1583922815574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="425" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583919767021" />
-    <state width="1877" height="425" key="GridCell.Tab.0.center" timestamp="1583919767020">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583922815574" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1583922815574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="425" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583919767020" />
-    <state width="1877" height="425" key="GridCell.Tab.0.left" timestamp="1583919767020">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583922815574" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1583922815574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="425" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583919767020" />
-    <state width="1877" height="425" key="GridCell.Tab.0.right" timestamp="1583919767020">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583922815574" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1583922815574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="425" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583919767020" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583922815574" />
     <state width="1877" height="339" key="GridCell.Tab.1.bottom" timestamp="1576338861618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
